@@ -1,7 +1,3 @@
-<!-- 
-  About.xml —— RimWorld 模组元数据文件
-  本文件用于定义模组的标识、名称、作者、描述、支持版本、依赖关系等信息。
--->
 <?xml version="1.0" encoding="utf-8"?>
 
 <ModMetaData>
