@@ -1,12 +1,56 @@
+<!-- 
+  About.xml —— RimWorld 模组元数据文件
+  本文件用于定义模组的标识、名称、作者、描述、支持版本、依赖关系等信息。
+-->
 <?xml version="1.0" encoding="utf-8"?>
+
 <ModMetaData>
+
+  <!-- 模组的全局唯一标识符（唯一ID）-->
   <packageId>LiAnYang.RimLiMedical</packageId>
+
+  <!-- 模组在游戏内显示的名称 -->
   <name>RimLiMedical</name>
-  <author>LiAnYang</author>
-  <description>This is a large medical-themed RimWorld mod.</description>
+
+  <!-- 作者信息 -->
+  <authors>
+    <li>LiAnYang</li>
+    <li>Wuxu</li>
+  </authors>
+
+  <!-- 模组简介 -->
+  <description>
+    This is a large medical-themed RimWorld mod.
+  </description>
+
+  <!-- 模组支持的 RimWorld 版本 -->
   <supportedVersions>
     <li>1.6</li>
   </supportedVersions>
-  <modVersion IgnoreIfNoMatchingField="True">0.1.0</modVersion>
+
+  <!-- 模组版本号 -->
+  <modVersion>0.1.0</modVersion>
+
+  <!-- 模组github链接 -->
   <url>https://github.com/Part-timeOilSoldier/RimLiMedical</url>
+
+  <!-- 对不同 RimWorld 版本的描述文本 -->
+  <descriptionsByVersion>
+    <v1.6>
+      This is the initial version of the module.
+    </v1.6>
+  </descriptionsByVersion>
+
+  <!-- 声明依赖 -->
+  <modDependencies>
+    <li>
+      <!-- 依赖模组的唯一包ID -->
+      <packageId>brrainz.harmony</packageId>
+      <!-- 在提示中显示的名称 -->
+      <displayName>Harmony</displayName>
+      <!-- Steam 创意工坊链接 -->
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+
 </ModMetaData>
